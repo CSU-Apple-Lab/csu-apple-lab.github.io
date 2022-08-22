@@ -1,11 +1,10 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-2f85d83c.js",
+    "file": "_app/immutable/start-807622af.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-7ccff537.js",
-      "_singletons-eca981c1.js"
+      "_index-7ccff537.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
@@ -17,7 +16,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "_app/immutable/pages/__layout.svelte-6a33d827.js",
+    "file": "_app/immutable/pages/__layout.svelte-0ee5f5fb.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -25,8 +24,7 @@
       "_index-7ccff537.js",
       "_index-e228a9ca.js",
       "_loading-3716b82b.js",
-      "_dom.helper-15584c9c.js",
-      "_singletons-eca981c1.js"
+      "_dom.helper-15584c9c.js"
     ],
     "css": [
       "_app/immutable/assets/__layout-e40b7dfa.css"
@@ -45,7 +43,7 @@
     ]
   },
   "src/routes/apply21.svelte": {
-    "file": "_app/immutable/pages/apply21.svelte-ea690a94.js",
+    "file": "_app/immutable/pages/apply21.svelte-d111dee8.js",
     "src": "src/routes/apply21.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -58,7 +56,7 @@
     ]
   },
   "src/routes/contactUs.svelte": {
-    "file": "_app/immutable/pages/contactUs.svelte-c7a2ec64.js",
+    "file": "_app/immutable/pages/contactUs.svelte-9b48e6d1.js",
     "src": "src/routes/contactUs.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -71,7 +69,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "_app/immutable/pages/index.svelte-df687c9d.js",
+    "file": "_app/immutable/pages/index.svelte-c6c4b0de.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -83,7 +81,7 @@
     ]
   },
   "src/routes/joinUs.svelte": {
-    "file": "_app/immutable/pages/joinUs.svelte-868e9f94.js",
+    "file": "_app/immutable/pages/joinUs.svelte-10b82974.js",
     "src": "src/routes/joinUs.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -96,9 +94,6 @@
   },
   "_index-7ccff537.js": {
     "file": "_app/immutable/chunks/index-7ccff537.js"
-  },
-  "_singletons-eca981c1.js": {
-    "file": "_app/immutable/chunks/singletons-eca981c1.js"
   },
   "_dom.helper-15584c9c.js": {
     "file": "_app/immutable/chunks/dom.helper-15584c9c.js"
