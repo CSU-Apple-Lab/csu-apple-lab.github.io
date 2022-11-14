@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-e00c506d.js",
+    "file": "_app/immutable/start-a5354621.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -11,6 +11,7 @@
       "src/routes/__error.svelte",
       "src/routes/apply21.svelte",
       "src/routes/contactUs.svelte",
+      "src/routes/en/index.svelte",
       "src/routes/index.svelte",
       "src/routes/joinUs.svelte"
     ]
@@ -68,8 +69,20 @@
       "_app/immutable/assets/contactUs-1c473c55.css"
     ]
   },
+  "src/routes/en/index.svelte": {
+    "file": "_app/immutable/pages/en/index.svelte-194c5365.js",
+    "src": "src/routes/en/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-7ccff537.js",
+      "_index-e228a9ca.js",
+      "_loading-3716b82b.js",
+      "_CardContextBlock-1b820c94.js"
+    ]
+  },
   "src/routes/index.svelte": {
-    "file": "_app/immutable/pages/index.svelte-e6177ef0.js",
+    "file": "_app/immutable/pages/index.svelte-72f4f6d0.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
