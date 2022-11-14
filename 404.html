@@ -6,14 +6,14 @@
 	<link rel="icon" href="./favicon.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta http-equiv="content-security-policy" content="">
-	<link rel="modulepreload" href="/_app/immutable/start-ed1bf039.js">
+	<link rel="modulepreload" href="/_app/immutable/start-cc719d25.js">
 	<link rel="modulepreload" href="/_app/immutable/chunks/index-7ccff537.js">
 </head>
 
 <body>
 	
 		<script type="module" data-sveltekit-hydrate="45h">
-		import { start } from "/_app/immutable/start-ed1bf039.js";
+		import { start } from "/_app/immutable/start-cc719d25.js";
 		start({
 			target: document.querySelector('[data-sveltekit-hydrate="45h"]').parentNode,
 			paths: {"base":"","assets":""},
@@ -25,5 +25,40 @@
 		});
 	</script>
 </body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+
+	function initChart() {
+		const ctx = document.getElementById('myChart').getContext('2d');
+
+		const data = {
+			labels: [
+				'省级以上竞赛奖励',
+				'校级以上奖学金',
+				'省级以上大创立项',
+			],
+			datasets: [{
+				label: '20级累计成果',
+				data: [17, 5, 6],
+				fill: true,
+				backgroundColor: [
+					'rgb(255, 99, 132)',
+					'rgb(54, 162, 235)',
+					'rgb(255, 205, 86)'
+				]
+			}]
+		};
+
+		const config = {
+			type: 'doughnut',
+			data: data,
+		};
+		const myChart = new Chart(ctx, config);
+	}
+
+	initChart();
+</script>
 
 </html>
